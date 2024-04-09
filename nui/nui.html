@@ -1,0 +1,78 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="hidden">
+  <div class="menu">
+    <div class="buttons">
+      <!-- SETTINGS -->
+      <div class="button settings" id="settings">
+        <h1>SETTINGS</h1>
+        <i class="fa-solid fa-gears"></i>
+        <div>Open settings<span><i class="fa-solid fa-arrow-right"></i></span></div>
+      </div>
+      <!-- MAP -->
+      <div class="button map" id="map">
+        <h1>MAP</h1>
+        <i class="fa-solid fa-map-location-dot"></i>
+        <div>Open map<span><i class="fa-solid fa-arrow-right"></i></span></div>
+      </div>
+      <!-- CONTROLS -->
+      <div class="button controls" id="controls">
+        <h1>CONTROLS</h1>
+        <i class="fa-solid fa-keyboard"></i>
+        <div>Show controls<span><i class="fa-solid fa-arrow-right"></i></span></div>
+      </div>
+      <!-- BUG -->
+      <!-- <div class="button bug" id="controls">
+        <h1>BUG</h1>
+        <i class="fa-solid fa-bug"></i>
+        <div>Report a bug<span><i class="fa-solid fa-arrow-right"></i></span></div>
+      </div> -->
+      <!-- QUIT -->
+      <div class="button quit" id="quit">
+        <h1>QUIT</h1>
+        <i class="fa-solid fa-power-off"></i>
+        <div>Close fivem<span><i class="fa-solid fa-arrow-right"></i></span></div>
+      </div>
+    </div>
+    <div class="info">
+      <div>ID<span id="player-id">6000</span></div>
+      <div>PLAYERS<span id="player-count">0</span></div></div>
+    </div>
+    <div id="controls-panel" class="hidden">
+      <div class="controls-container">
+        <div id="controls-list"></div>
+      </div>
+      <div class="close" id="close-controls">
+        <i class="fa-regular fa-circle-xmark"></i>
+      </div>
+    </div>
+    <div class="tinies">
+      <div class="tiny hidden" id="youtube">
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="tiny hidden" id="twitch">
+        <i class="fa-brands fa-twitch"></i>
+      </div>
+      <div class="tiny hidden" id="discord">
+        <i class="fa-brands fa-discord"></i>
+      </div>
+      <div class="tiny hidden" id="twitter">
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+      <div class="tiny hidden" id="instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="tiny hidden" id="tiktok">
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+    </div>
+    <div class="close" id="close">
+      <i class="fa-regular fa-circle-xmark"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
