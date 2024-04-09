@@ -1,5 +1,6 @@
 Config = {
   Controls = {
+    --Add keys using this format: {'key', 'description'}
     {'0', 'Toggle phone'},
     {'F12', 'Quit'},
     {'F10', 'Options'},
