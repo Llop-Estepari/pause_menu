@@ -4,7 +4,7 @@ lua54 'true'
 
 author 'Llop'
 description 'Customized pause menu'
-version '1.0.1'
+version '1.0.2'
 
 
 client_scripts {
