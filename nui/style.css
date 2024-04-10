@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 * {
   margin: 0;
@@ -10,11 +10,11 @@
 :root {
   --text-color: #ececec;
   --bg-color: #111111;
-  --settings-color: #146EF5;
-  --map-color: #00D722;
-  --controls-color: #FF6B00;
-  --quit-color: #EE1D36;
-  --bug-color: #ED52CB;
+  --settings-color: #146ef5;
+  --map-color: #00d722;
+  --controls-color: #ff6b00;
+  --quit-color: #ee1d36;
+  --bug-color: #ed52cb;
   --close-color: #f0f0f0;
   --body-bg-color: #1f1f1f80;
   --button-border: 2px solid;
@@ -59,16 +59,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .info div span {
   text-align: end;
   width: 200px;
-
 }
 
-#player-id, #player-count {
+#player-id,
+#player-count {
   text-align: left;
   font-weight: 700;
   margin-left: 10px;
@@ -101,7 +100,7 @@ body {
   width: 240px;
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   font-size: 1rem;
 }
 
@@ -115,7 +114,7 @@ body {
 
 .button div {
   text-align: left;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 800;
   width: 100%;
   display: flex;
@@ -125,7 +124,7 @@ body {
 
 .button div span i {
   margin-left: 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .button:hover {
@@ -182,7 +181,6 @@ body {
   box-shadow: 0 0 10px var(--quit-color);
 }
 
-
 .tinies {
   position: absolute;
   bottom: 1%;
@@ -206,7 +204,7 @@ body {
   color: var(--text-color);
   font-size: 0.4rem;
 
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .tiny i {
@@ -219,7 +217,6 @@ body {
   border-color: var(--text-color);
   box-shadow: 0 0 10px var(--text-color);
   scale: 1.05;
-
 }
 
 .tiny:hover div span {
@@ -237,15 +234,14 @@ body {
   font-weight: 800;
   color: var(--close-color);
   text-shadow: 0 0 10px var(--close-color);
-  transition: all .1s ease;
+  transition: all 0.1s ease;
   cursor: pointer;
 }
 
 .close:hover {
-  color: #EE1D36;
-  text-shadow: 0 0 10px #EE1D36;
+  color: #ee1d36;
+  text-shadow: 0 0 10px #ee1d36;
   scale: 1.1;
-
 }
 
 #controls-panel {
@@ -297,7 +293,7 @@ body {
   display: grid;
   place-content: center;
 
-  font-size: .9vw;
+  font-size: 0.9vw;
   font-weight: 700;
   min-width: 48px;
   min-height: 48px;
@@ -310,7 +306,6 @@ body {
 .control span {
   font-weight: 400;
   font-size: 1vw;
-
 }
 
 #logo {
@@ -333,12 +328,12 @@ body {
 }
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background: var(--text-color);
 }
