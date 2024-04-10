@@ -8,7 +8,7 @@ Replaces the gta default pause menu with a new one.
  - The menu shows the id of the player and the players online.
 
 ## Configuration
- ![](https://i.gyazo.com/ea85d7ec76406f50add1afb34eb9593e.png)
+ ![](https://i.gyazo.com/eaffe6e6c9e7ffd31ae59e761595e6ef.png)
 
 ## Installation
 1. Place pause_menu in your resources directory.
