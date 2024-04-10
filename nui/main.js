@@ -25,9 +25,19 @@ window.addEventListener('message', (event) => {
     setSocialMedia(event.data.links)
     setColors(event.data.colors)
     setControls(event.data.controls)
+    addLogo(event.data.logo)
     playerIdLbl.innerHTML = event.data.playerID
   }
 })
+
+function addLogo(logo) {
+  if (logo) {
+    const logoImg = document.createElement('img')
+    logoImg.style.width = '200px'
+    logoImg.src = logo
+    document.getElementById('logo').appendChild(logoImg)
+  }
+}
 
 function setControls(controls) {
   const controlParent = document.getElementById('controls-list')

@@ -42,15 +42,34 @@ body {
   align-items: center;
 }
 
+.info {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .info div {
-  text-align: center;
   color: rgba(255, 255, 255, 0.5);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
   font-size: 1.4rem;
   font-weight: 500;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .info div span {
+  text-align: end;
+  width: 200px;
+
+}
+
+#player-id, #player-count {
+  text-align: left;
   font-weight: 700;
   margin-left: 10px;
   color: var(--text-color);
@@ -111,6 +130,7 @@ body {
 
 .button:hover {
   color: var(--bg-color);
+  scale: 1.05;
 }
 
 .button:hover div span {
@@ -198,6 +218,8 @@ body {
   background-color: var(--text-color);
   border-color: var(--text-color);
   box-shadow: 0 0 10px var(--text-color);
+  scale: 1.05;
+
 }
 
 .tiny:hover div span {
@@ -222,6 +244,8 @@ body {
 .close:hover {
   color: #EE1D36;
   text-shadow: 0 0 10px #EE1D36;
+  scale: 1.1;
+
 }
 
 #controls-panel {
@@ -266,7 +290,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 5px;
+  gap: 10px;
 }
 
 .control div {
@@ -283,6 +307,17 @@ body {
   border: 2px solid var(--text-color);
 }
 
+.control span {
+  font-weight: 400;
+  font-size: 1vw;
+
+}
+
+#logo {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
 
 #close-controls {
   position: fixed;

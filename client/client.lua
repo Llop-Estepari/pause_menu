@@ -6,6 +6,7 @@ RegisterNUICallback('loadsettings', function()
     links = Config.Links,
     colors = Config.Colors,
     controls = Config.Controls,
+    logo = Config.Logo,
     playerID = GetPlayerServerId(PlayerId()),
   })
 end)

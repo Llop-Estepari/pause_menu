@@ -2,13 +2,13 @@ Config = {
   Controls = {
     --Add keys using this format: {'key', 'description'}
     {'0', 'Toggle phone'},
-    {'F12', 'Quit'},
+    {'Q', 'Cover'},
     {'F10', 'Options'},
     {'F9', 'Map'},
-    {'F8', 'Settings'},
+    {'F8', 'Console'},
     {'F7', 'Controls'},
     {'R', 'Reload'},
-    {'TAB', 'Inventory'},
+    {'TAB', 'Weapons'},
     {'ESC', 'Settings'},
   },
   Colors = {
@@ -29,5 +29,6 @@ Config = {
     YOUTUBE     = "https://youtube.com/",
     TWITCH      = "https://twitch.tv/",
     TIKTOK      = "https://tiktok.com/",
-  }
+  },
+  Logo = 'logo.png', --Use logo.png or a link
 }
